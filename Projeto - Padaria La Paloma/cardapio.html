@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cardápio</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="style2.css" type="text/css">
+
+		<script src="https://kit.fontawesome.com/ddad9bd847.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script src="cafeMania.js"></script>
+	</head>
+	<body class="cor_creme_fundo">
+
+		<audio src="coin_sound.wav" id="audio"></audio>
+		<audio src="coins_purchase.wav" id="audio1"></audio>
+		<audio src="cancel_sound.wav" id="audio2"></audio>
+		<audio src="musica_cafe_mania.wav" id="audio3"></audio>
+
+		<header class="cor_vinho_menu">
+
+			<div class="container centralizar">
+				<img src="IMG/logo+nome.png" class="logo">	
+			</div>
+
+		</header>
+
+		<div class="container d-flex justify-content-center">		
+			<nav class="navbar navbar-expand-sm navbar-light">
+			    <button class="navbar-toggler" data-toggle="collapse" 
+			    data-target="#nav-target">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="nav-target">
+			        <ul class="nav navbar-nav ml-auto">
+			          <li class="nav-item ml-2">
+			            <a href="index.html" class="nav-link menu">HOME</a>
+			          </li>
+			          <li class="nav-item ml-2">
+			            <a href="index.html" class="nav-link menu">SOBRE NOS</a>
+			          </li>
+			           <li class="nav-item ml-2">
+			            <a href="index.html" class="nav-link menu">DELIVERY</a>
+			          </li>
+			          <li class="nav-item ml-2">
+			            <a href="" id="marcador" class="nav-link menu">CARDAPIO</a>
+			          </li>
+			           <li class="nav-item ml-2">
+			            <a href="contato.html" class="nav-link menu">CONTATO</a>
+			          </li>
+			        </ul>
+			    </div>
+			</nav>
+		</div>
+
+		<div>
+			<div class="container mt-2">
+				<h1 class="d-flex justify-content-center borda_personalizada"><i class="fas fa-pizza-slice"><span>Cardapio</span></i></h1>
+			</div>
+			<section class="container my-2 borda_personalizada">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<img src="IMG/card_paes.png" class="card-img-top">
+							<div class="card-body"> 
+								<table class="table table-bordered table-striped">
+									<thead>
+										<tr>
+											<th>Produto</th>
+											<th>Valor</th>
+											<th>Adicionar Produto</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="align-middle">Cacetinho</td>
+											<td class="align-middle">R$ 1,00</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(0, 'R$ 1,00', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr0', 0)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Integral com manteiga</td>
+											<td class="align-middle">R$ 4,00</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(1, 'R$ 4,00', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr1', 1)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Bisnaga com manteiga</td>
+											<td class="align-middle">R$ 3,00</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(2, 'R$ 3,00', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr2', 2)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Croissant com Nutella</td>
+											<td class="align-middle">R$ 12,80</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(3, 'R$ 12,80', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr3', 3)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Pao de queijo</td>
+											<td class="align-middle">R$ 2,00</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(4, 'R$ 2,00', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr4', 4)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Baguete com requeijão</td>
+											<td class="align-middle">R$ 5,85</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(5, 'R$ 5,85', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr5', 5)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="card">
+							<img src="IMG/card_bebidas.png" class="card-img-top">
+							<div class="card-body"> 
+								<table class="table table-bordered table-striped">
+									<thead>
+										<tr>
+											<th>Produto</th>
+											<th>Valor</th>
+											<th>Adicionar Produto</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="align-middle">Cafe Expresso</td>
+											<td class="align-middle">R$ 4,50</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(6, 'R$ 4,50', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr6', 6)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Capuccino</td>
+											<td class="align-middle">R$ 5,70</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(7, 'R$ 5,70', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr7', 7)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Suco de Laranja</td>
+											<td class="align-middle">R$ 3,75</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(8, 'R$ 3,75', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr8', 8)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Suco de Abacaxi</td>
+											<td class="align-middle">R$ 4,25</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(9, 'R$ 4,25', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr9', 9)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Pepsi Lata</td>
+											<td class="align-middle">R$ 5,00</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(10, 'R$ 5,00', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr10', 10)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Monster Energy</td>
+											<td class="align-middle">R$ 12,00</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(11, 'R$ 12,00', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr11', 11)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="container my-2 borda_personalizada">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<img src="IMG/card_salgados.png" class="card-img-top">
+							<div class="card-body"> 
+								<table class="table table-bordered table-striped">
+									<thead>
+										<tr>
+											<th>Produto</th>
+											<th>Valor</th>
+											<th>Adicionar Produto</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="align-middle">Joelho</td>
+											<td class="align-middle">R$ 6,00</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(12, 'R$ 6,00', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr12', 12)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Empada de camarão</td>
+											<td class="align-middle">R$ 7,00</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(13, 'R$ 7,00', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr13', 13)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Coxinha</td>
+											<td class="align-middle">R$ 5,00</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(14, 'R$ 5,00', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr14', 14)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Croquete</td>
+											<td class="align-middle">R$ 4,00</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(15, 'R$ 4,00', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr15', 15)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Pastel</td>
+											<td class="align-middle">R$ 7,20</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(16, 'R$ 7,20', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr16', 16)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Bolinha de queijo</td>
+											<td class="align-middle">R$ 3,00</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(17, 'R$ 3,00', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr17', 17)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="card">
+							<img src="IMG/card_variados.png" class="card-img-top">
+							<div class="card-body"> 
+								<table class="table table-bordered table-striped">
+									<thead>
+										<tr>
+											<th>Produto</th>
+											<th>Valor</th>
+											<th>Adicionar Produto</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="align-middle">X-Tudo</td>
+											<td class="align-middle">R$ 18,70</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(18, 'R$ 18,70', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr18', 18)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Mini Pizza</td>
+											<td class="align-middle">R$ 10,00</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(19, 'R$ 10,00', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr19', 19)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Churros de chocolate</td>
+											<td class="align-middle">R$ 6,75</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(20, 'R$ 6,75', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr20', 20)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Macaron</td>
+											<td class="align-middle">R$ 4,25</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(21, 'R$ 4,25', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr21', 21)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Cookie de Nutella</td>
+											<td class="align-middle">R$ 5,50</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(22,'R$ 5,50', 1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr22', 22)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+										<tr>
+											<td class="align-middle">Alfajor</td>
+											<td class="align-middle">R$ 4,75</td>
+											<td class="d-flex justify-content-center"><i onclick="clickButton(), inserirTabela(23,'R$ 4,75',1)" class="fas fa-plus-circle fa-1x"></i></td>
+											<td class="d-flex justify-content-center"><i onclick="clickButtonCancel(), retirarTabela('tr23', 23)" class="fas fa-minus-circle fa-1x"></i></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<div>
+			<div class="container mt-2">
+				<h1 class="d-flex justify-content-center borda_personalizada"><i class="fas fa-shopping-cart"> <span>Carrinho</span></i></h1>
+			</div>
+			<section class="container borda_personalizada">
+				<div class="row">
+					<div class="col-md-12">
+						<table class="table table-bordered">
+							<thead class="thead-dark">
+								<tr>
+									<th>Produto</th>
+									<th>Preço Unitário</th>
+									<th>Quantidade</th>
+								</tr>
+							</thead>
+							<tbody id="tbody">
+								
+							</tbody>
+							<tfoot id="tfoot">
+								
+							</tfoot>
+						</table>
+						<!-- Trigger/Open The Modal -->
+						<button disabled="enable" class="btn btn-success btn-block" id="myBtn">Pedir</button>
+						<!-- The Modal -->
+						<div id="myModal" class="modal">
+                            <div class="w-75 modal-content bg-light">
+                              <div>
+                                <span class="close">&times;</span>
+                                <form>
+                                    <div class="form-group" >
+                                        <h3 class="d-flex justify-content-center">Informe seu endereço</h3>
+                                        <input class="form-control mb-2" type="text" id="campo1" placeholder="Nome">
+                                        <input class="form-control mb-2" type="text" id="campo2" placeholder="Sobrenome">
+                                        <input class="form-control mb-2" type="text" id="campo3" placeholder="CPF">
+                                        <input class="form-control mb-2" type="text" id="campo4" placeholder="CEP">
+                                        <input class="form-control mb-2" type="text" id="campo5" placeholder="Rua">
+                                        <input class="form-control mb-2" type="text" id="campo6" placeholder="Nº residencia">
+                                        <button class="btn btn-outline-success btn-block" type="button" id="myBtn2">Solicitar</button>
+                                    </div>
+                                </form>
+                              </div>
+                            </div>
+                        </div>
+                        <div id="myModal1" class="modal">
+                            <div class="w-75 modal-content2 bg-light">
+                              <div>
+                                <span class="close">&times;</span>
+                                <p class="d-flex justify-content-center">Seu pedido está sendo preparado.</p>
+                              </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+
+
+		<footer class="cor_vinho_menu" >
+			<div class="container centralizar row" id="espaco_md">
+
+					<div class="col-md-3 d-none d-md-block mt-5" >
+						<span class="titulo_footer">LOCAL</span>
+						<a href="" class="endereço col-md-4">
+						<br>Santa Catarina(SC),
+                        <br>Balneário Camboriú,
+                        <br>CEP: 01239-050,
+                        <br>Tv. Dona Paula,
+                        <br>Número: 13</a>
+					</div>
+					
+					<div class="col-md-4 ml-1 d-inline-block" >
+						<img src="IMG/logo.png" class="imagem_rodape">
+					</div>
+
+					<div class="col-md-3 ml-2 d-inline-block mt-5 mb-4" >
+						<span class="titulo_footer">REDES SOCIAIS</span>
+						<br><br>
+
+						<div>
+							<a href=""><i class="fab fa-facebook-square fa-2x icones"></i></a>
+							<a href=""><i class="ml-2 fab fa-twitter-square fa-2x icones"></i></a>
+							<a href=""><i class="ml-2 fab fa-instagram-square fa-2x icones"></i></a>
+						</div>
+
+						<span >Copyright © 2020 todos os direitos reservados</span>		
+
+					</div>
+			</div>
+		</footer>
+
+		<script src="code2.js"></script>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+		<script src="code2.js"></script>
+	</body>
+</html>

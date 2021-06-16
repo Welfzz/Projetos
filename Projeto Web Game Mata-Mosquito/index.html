@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>START</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<script>
+		function iniciarJogo(){
+    	var nivel = document.getElementById('nivel').value
+
+    	if(nivel === ''){
+    		alert("SELECIONE UMA DIFICULDADE PARA COMEÇAR")
+    		return false
+    	}
+
+    	window.location.href = 'jogo.html?' + nivel
+
+    }
+	</script>
+</head>
+
+	<body class="fim">
+
+	<div class="container">
+		<div class="row pt-5">
+			<div class="col-md-12">
+				<div class="d-flex justify-content-center">
+					<img src="IMG/game.png" >
+				</div>
+			</div>
+
+			<div class="col-md-12">
+				<div class="d-flex justify-content-center">
+					<select class="form-control col-md-3 mb-3" id='nivel'>
+						<option value="">--Selecione a dificuldade</option>
+						<option value="facil">Fácil</option>
+						<option value="normal">Normal</option>
+						<option value="dificil">Dificil</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="col-md-12">
+				<div class="d-flex justify-content-center">
+					<button onclick="iniciarJogo()" class="btn btn-success">INICIAR</button>
+				</div>
+			</div>	
+		</div>
+	</div>
+
+	</body>
+
+
+</html>

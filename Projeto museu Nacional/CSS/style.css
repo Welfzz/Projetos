@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+body{
+	font-family: sans-serif;
+	background: #f6f3ed;
+}
+
+
+
+/**====cabeça====*/
+
+header{
+	background: brown url('../IMG/fundo.png') repeat;
+	padding: 15px 0;
+	height: 150px;
+}
+
+#logo h1 a{
+	background: url('../IMG/logo.png') no-repeat;
+	display: block;
+	width: 245px;
+	height: 21px;
+	text-indent: -99999px;
+	margin: 0 130px;
+}
+
+/**====menu====*/
+
+nav ul{
+	float: right;
+	margin: 0px 130px;
+	margin-top: -43px;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a{
+	color: white;
+	padding: 3px;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: green;
+}
+
+
+/**======principal=====*/
+
+#principal{
+	width: 710px;
+	float: left;
+	margin-left:175px;
+	margin-top: -100px;
+
+}
+
+aside {
+	width: 350px;
+	float: right;
+	background: #f1eadb;
+	margin-right: 175px;
+	margin-top: -100px;
+}
+
+/*======lateral===*/
+
+#verificar-form{
+	background:  #dab767;
+	margin-top: 5px;
+	padding: 15px;
+}
+
+#verificar-form h3{
+	font-family: sans-serif;
+	padding-bottom: 15px;
+	
+}
+
+#verificar-form label{
+	font-family: sans-serif;
+	font-size: 14px;
+
+}
+#verificar-form .diminuirbarra{
+	width: 35px;
+}
+
+#verificar-form .enviar{
+	padding: 10px;
+	font-size: 13px;
+	background:  #dec489;
+	width: 100%;
+}
+
+#verificar-form .enviar:hover{
+	color: white;
+	background:  #f4c55a;
+}
+
+section#galeria{ 
+	padding: 15px;
+	background: #f1eadb;
+}
+
+#galeria h3{
+	font-family: sans-serif;
+	padding-bottom: 15px;
+}
+
+section#galeria a{
+	display:block;
+	background: url('../IMG/fundo-foto.png') no-repeat;
+	float: left;
+	padding: 15px;
+	margin: 17px;
+}
+
+section#galeria img{
+	margin: 3px 0 0 2px;
+}
+	
+/**=======post========*/
+
+article#postagens{
+	width: 710px;
+
+}
+
+#postagens h3{
+	padding: 10px 0;
+	color: green;
+}
+
+#postagens p{
+	font-size: 14px;
+}
+
+article#texto1{
+	width: 330px;
+}
+
+article#texto2{
+	width: 350px;
+	float: right;
+	margin-top: -123px;
+}
+
+article#mapa{
+	float: right;
+	margin-top: -43px;
+	margin-left: -20px;
+}
+
+#mapa h3{
+	padding: 10px 0;
+	color: green;
+
+}

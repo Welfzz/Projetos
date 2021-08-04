@@ -1,0 +1,22 @@
+C:\Users\Liniker Vaz\Desktop\Projeto sistema de cantina com imagem\Sistema Cantina\Sistema Cantina\bin\Debug\Sistema Cantina.exe.config
+C:\Users\Liniker Vaz\Desktop\Projeto sistema de cantina com imagem\Sistema Cantina\Sistema Cantina\bin\Debug\Sistema Cantina.exe
+C:\Users\Liniker Vaz\Desktop\Projeto sistema de cantina com imagem\Sistema Cantina\Sistema Cantina\bin\Debug\Sistema Cantina.pdb
+C:\Users\Liniker Vaz\Desktop\Projeto sistema de cantina com imagem\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema Cantina.csprojResolveAssemblyReference.cache
+C:\Users\Liniker Vaz\Desktop\Projeto sistema de cantina com imagem\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema_Cantina.Form1.resources
+C:\Users\Liniker Vaz\Desktop\Projeto sistema de cantina com imagem\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema_Cantina.Properties.Resources.resources
+C:\Users\Liniker Vaz\Desktop\Projeto sistema de cantina com imagem\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema Cantina.csproj.GenerateResource.Cache
+C:\Users\Liniker Vaz\Desktop\Projeto sistema de cantina com imagem\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema Cantina.csproj.CoreCompileInputs.cache
+C:\Users\Liniker Vaz\Desktop\Projeto sistema de cantina com imagem\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema Cantina.exe
+C:\Users\Liniker Vaz\Desktop\Projeto sistema de cantina com imagem\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema Cantina.pdb
+C:\Users\Liniker Vaz\Desktop\Projeto sistema de cantina com imagem\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema_Cantina.caixa_sobre.resources
+C:\Users\Liniker Vaz\Desktop\Sistema Cantina\Sistema Cantina\bin\Debug\Sistema Cantina.exe.config
+C:\Users\Liniker Vaz\Desktop\Sistema Cantina\Sistema Cantina\bin\Debug\Sistema Cantina.exe
+C:\Users\Liniker Vaz\Desktop\Sistema Cantina\Sistema Cantina\bin\Debug\Sistema Cantina.pdb
+C:\Users\Liniker Vaz\Desktop\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema Cantina.csprojResolveAssemblyReference.cache
+C:\Users\Liniker Vaz\Desktop\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema_Cantina.caixa_sobre.resources
+C:\Users\Liniker Vaz\Desktop\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema_Cantina.Form1.resources
+C:\Users\Liniker Vaz\Desktop\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema_Cantina.Properties.Resources.resources
+C:\Users\Liniker Vaz\Desktop\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema Cantina.csproj.GenerateResource.Cache
+C:\Users\Liniker Vaz\Desktop\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema Cantina.csproj.CoreCompileInputs.cache
+C:\Users\Liniker Vaz\Desktop\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema Cantina.exe
+C:\Users\Liniker Vaz\Desktop\Sistema Cantina\Sistema Cantina\obj\Debug\Sistema Cantina.pdb

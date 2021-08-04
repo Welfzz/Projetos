@@ -1,4 +1,4 @@
-//Estrutura SQL pronta para teste de funcionamento local 
+#Estrutura SQL pronta para teste de funcionamento local 
 
 create database dashboard collate utf8_unicode_ci;
 

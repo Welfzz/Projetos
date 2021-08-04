@@ -1,4 +1,4 @@
-//Estrutura SQL pronta para teste de funcionamento local 
+#Estrutura SQL pronta para teste de funcionamento local
 
 create table tb_status(
 	id int not null primary key auto_increment,

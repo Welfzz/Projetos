@@ -1,0 +1,373 @@
+/*MENU E TOPO */
+
+html, body, ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+div.barra_contato{
+	background-color: #c20102;
+}
+div.barra_menu{
+	background-color: #fe0000;
+}
+
+div.barra_contato a{
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-family: 'Roboto Thin', sans-serif;
+	font-weight: 600;
+	padding: 5px;
+}
+
+div.barra_menu a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	font-family: 'georgia-regular', sans-serif;
+	font-weight: bold;
+	padding: 5px 15px;
+}
+div.barra_menu a:hover{
+	color: #f4d68e;
+}
+
+div.barra_menu h1{
+	color: white;
+	font-family: 'georgia-regular', sans-serif;
+	font-weight: 900;
+}
+
+/*CAROUSEL CONFIGURAçõES8 */
+
+.img_fluid{
+	background-size: cover;
+	width: 100%;
+	height: 793px;
+}
+#back_carousel{
+	background-color: black;
+	opacity: 0.9;
+}
+
+.sobrepor_texto_container{
+	position: absolute;
+	right: 200px;
+	top: 250px;
+}
+div.sobrepor_texto_container p, strong{
+	color: white;
+	padding: 8px 0;
+	font-family: 'georgia-regular', sans-serif;
+	font-size: 20px;
+}
+
+div.sobrepor_texto_container h2{
+ 	font-weight: 900;
+ 	color: white;
+ 	padding: 8px 0;
+	font-family: 'georgia-regular', sans-serif;
+}
+
+div.sobrepor_texto_container button{
+	background-color: #ffdd8b;
+	border-radius: 8px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	float: right;
+}
+
+div.sobrepor_texto_container button:hover{
+	color:white;
+	background-color: #c20102;
+	border-radius: 8px;
+}
+
+div#cards p{
+	color: #ffdd8b;
+	font-size: 20px;
+}
+div#cards button{
+	border-radius: 8px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	margin-left: 19%;
+}
+
+/* PRODUTOS */
+
+article h1{
+	font-family: 'georgia-regular', sans-serif;
+	font-weight: bold;
+}
+
+.estiloProd{
+	text-align: center;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+a.posicao_btn{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	right: 5px;
+	left: 180px;
+	top: 190px;
+}
+
+a.posicao_btn2{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	right: 180px;
+	top: 190px;
+}
+
+div.Whats h2{
+	font-family: 'georgia-regular', sans-serif;
+	font-weight: 900; 
+}
+
+div.Whats p{
+	font-family: 'georgia-regular', sans-serif;
+	font-size: 23px;
+}
+
+div.Whats button{
+	font-family: 'georgia-regular', sans-serif;
+	font-weight: bold;
+	border-radius: 7px;
+	margin-top: 30px;
+	padding: 5px 40px;
+	background-color: #7ac943;
+	color: white;
+}
+
+div.Whats button:hover{
+	background-color: black;
+	color: white;
+}
+
+/* CONTATO */
+
+
+section#contato{
+	background: url(IMG/fundoContato.png) no-repeat;
+	background-size: cover;
+}
+
+section#contato button{
+	font-family: 'georgia-regular', sans-serif;
+	font-weight: bold;
+}
+
+/* FOOTER */
+
+footer{
+	background-color: #231f20;
+	overflow-x: hidden;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: #9f9d9e;
+}
+footer ul li a:hover{
+	color: white;
+}
+footer ul li a:active{
+	color: red;
+}
+footer a i{
+	color: red;
+}
+footer a i:hover{
+	color: white;
+}
+
+#imgBotao{
+	position: relative;
+	left: 44px;
+	bottom: 40px;
+}
+.btn_chat{
+	padding: 0;
+	position: relative;
+	right: 14px;
+	bottom: 30px;
+}
+.btn_chat_ativo{
+	position: relative;
+	right: -370px;
+	bottom: 452px;
+}
+
+.chatSpace{
+	 width: 400px;
+	 height: 400px;
+	 position: relative;
+	 bottom: 400px;
+}
+
+@media (max-width: 576px) { 
+	body{
+		overflow-x: hidden;
+	}
+
+	div#sobreporCar1{
+		width: 280px;
+		left:80px;
+
+	}
+	div#sobreporCar1 h2{
+		font-size: 18px;
+		text-align: center;
+		
+	}
+	div#sobreporCar1 p, strong{
+		font-size: 15px;
+		text-align: center;
+		
+	}
+	div#sobreporCar1 button{
+		font-size: 15px;
+		margin-right: 7px;
+		
+	}
+
+	div#sobreporCar2{
+		width: 280px;
+		left:80px;
+
+	}
+	div#sobreporCar2 h2{
+		font-size: 18px;
+		text-align: center;
+		
+	}
+	div#sobreporCar2 p, strong{
+		font-size: 15px;
+		text-align: center;
+		
+	}
+	div#sobreporCar2 button{
+		font-size: 15px;
+		margin-right: 7px;
+		
+	}
+
+	/* cards */
+
+	div#cards div{
+		display: none;
+	}
+
+	img#imgJS{
+		border: 1px solid black;
+		margin-left: 60px;
+	}
+
+	/* rodape */
+
+	div#rodape1 li a{
+		font-size: 12px;
+	}
+	div#rodape2 li, a{
+		font-size: 12px;
+	}
+	div#rodape3 p, span{
+		font-size: 12px;
+	}
+
+}
+@media (min-width: 600px ) and (max-width: 767px) { 
+
+	body{
+		overflow-x: hidden;
+	}
+
+	div#sobreporCar1{
+		width: 450px;
+		left:120px;
+
+	}
+	div#sobreporCar1 h2{
+		font-size: 20px;
+		text-align: center;
+		
+	}
+	div#sobreporCar1 p, strong{
+		font-size: 17px;
+		text-align: center;
+		
+	}
+	div#sobreporCar1 button{
+		font-size: 17px;
+		margin-right: 73px;
+		
+	}
+
+	div#sobreporCar2{
+		width: 450px;
+		left:120px;
+
+	}
+	div#sobreporCar2 h2{
+		font-size: 20px;
+		text-align: center;
+		
+	}
+	div#sobreporCar2 p, strong{
+		font-size: 17px;
+		text-align: center;
+		
+		
+	}
+	div#sobreporCar2 button{
+		font-size: 17px;
+		margin-right: 73px;
+		
+	}
+
+	/* cards */
+
+	div#cards div{
+		display: none;
+	}
+
+	img#imgJS{
+		border: 1px solid black;
+		margin-left: 185px;
+	}
+	
+	/* contato */
+
+	div#cadastro {
+		margin-right: 20px;
+		margin-top: 30px;
+	}
+
+	div#cadastro h1, span{
+		font-size: 14px;
+	}
+
+	div#cadastro .texto{
+		display: none;
+	}
+
+	/* rodape */
+
+	div#rodape1 li a{
+		font-size: 12px;
+	}
+	div#rodape2 li, a{
+		font-size: 12px;
+	}
+	div#rodape3 p, span{
+		font-size: 12px;
+	}
+ }

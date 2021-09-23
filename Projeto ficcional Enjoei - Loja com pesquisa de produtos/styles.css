@@ -1,0 +1,170 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
+
+header{
+	border-bottom: 1px solid #F1EEEC;
+}
+
+#limpar_conteudo{
+	text-decoration: none;
+	color: #F05B78;
+	padding-right: 5px;
+}
+
+#icon-pesquisa{
+	color: #F05B78;
+}
+
+.divBase{
+	margin: 10px 10px 10px 10px;
+	width: 216px;
+	height: 216px;
+}
+
+.imgBase{
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 216px;
+	height: 216px;
+}
+
+.texto_falha{
+	font-size: 30px;
+	text-align: center;
+}
+.btn_limpar{
+	color: white;
+	background-color: #F05B78;
+	border: #F05B78;
+	border-radius: 5px;
+}
+.btn_limpar:active{
+	background-color: red;
+}
+
+/* media queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 550px) {
+
+	html, body {
+    	max-width: 100%;
+    	overflow-x: hidden;
+	}
+
+	.media-search{
+
+		position: relative;
+		right: 110px;
+		top: 20px;
+	}
+
+	
+ }
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	html, body {
+    	max-width: 100%;
+    	overflow-x: hidden;
+	}
+
+	.divBase{
+		margin: 0 auto;
+		width: 164px!important;
+		height: 164px!important;
+	}
+	.imgBase{
+		
+		width: 164px;
+		height: 164px;
+	}
+
+	.media-search{
+
+		position: relative;
+		right: 110px;
+		top: 20px;
+	}
+
+	
+ }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 745px) {
+
+	html, body {
+    	max-width: 100%;
+    	overflow-x: hidden;
+	}
+
+	.divBase{
+		margin: 0 auto;
+		width: 164px!important;
+		height: 164px!important;
+	}
+	.imgBase{
+		
+		width: 164px;
+		height: 164px;
+	}
+
+	.media-search{
+
+		position: relative;
+		right: 110px;
+		top: 20px;
+	}
+
+}
+
+@media only screen and (min-width: 750px) {
+
+
+	html, body {
+    	max-width: 100%;
+    	overflow-x: hidden;
+	}
+
+	.divBase{
+		margin: 5px auto;
+		width: 216px!important;
+		height: 216px!important;
+	}
+	.imgBase{
+		
+		width: 216px;
+		height: 216px;
+	}
+
+}
+
+@media only screen and (min-width: 992px) {
+
+
+	html, body {
+    	max-width: 100%;
+    	overflow-x: hidden;
+	}
+	
+	.divBase{
+		margin: 10px auto;
+		margin: 10px 10px;
+		width: 210px!important;
+		height: 210px!important;
+	}
+	.imgBase{
+		width: 210px;
+		height: 210px;
+	}
+
+}

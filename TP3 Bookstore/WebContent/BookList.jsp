@@ -47,7 +47,7 @@
     </div>
     
     <div align="center">
-    	<h2><a href=Credits.jsp>Creditos</a></h2>
+    	<h2><a href=Creditos.jsp>Creditos</a></h2>
     </div>
        
 </body>

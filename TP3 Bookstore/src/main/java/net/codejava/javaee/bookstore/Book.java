@@ -1,9 +1,9 @@
-package net.codejava.javaee.bookstore;
- 
 /**
- *SWII5 - TP03 - Alunos: Grazielle e Josuel - Prof Tuler
+ Dupla: Liniker Vaz de Lima e Diego Negrete Alves
  */
 
+package net.codejava.javaee.bookstore;
+ 
 public class Book {
     protected int id;
     protected String title;

@@ -4,11 +4,11 @@
     "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Error</title>
+<title>Erro</title>
 </head>
 <body>
     <center>
-        <h1>Error</h1>
+        <h1>Erro</h1>
         <h2><%=exception.getMessage() %><br/> </h2>
     </center>
 </body>

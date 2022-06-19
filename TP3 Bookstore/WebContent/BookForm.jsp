@@ -3,15 +3,15 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
-    <title>Books Store Application</title>
+    <title>Aplicação - Loja de Livros</title>
 </head>
 <body>
     <center>
-        <h1>Books Management</h1>
+        <h1>Gerenciamento de Livros</h1>
         <h2>
-            <a href="new">Add New Book</a>
+            <a href="new">Adicionar livro</a>
             &nbsp;&nbsp;&nbsp;
-            <a href="list">List All Books</a>
+            <a href="list">Listar todos os livros</a>
              
         </h2>
     </center>
@@ -26,10 +26,10 @@
             <caption>
                 <h2>
                     <c:if test="${book != null}">
-                        Edit Book
+                        Editar Livro
                     </c:if>
                     <c:if test="${book == null}">
-                        Add New Book
+                        Adicionar livro
                     </c:if>
                 </h2>
             </caption>
@@ -45,7 +45,7 @@
                 </td>
             </tr>
             <tr>
-                <th>Author: </th>
+                <th>Autor: </th>
                 <td>
                     <input type="text" name="author" size="45"
                             value="<c:out value='${book.author}' />"
@@ -53,7 +53,7 @@
                 </td>
             </tr>
             <tr>
-                <th>Price: </th>
+                <th>Preço: </th>
                 <td>
                     <input type="text" name="price" size="5"
                             value="<c:out value='${book.price}' />"

@@ -1,3 +1,7 @@
+/**
+ Dupla: Liniker Vaz de Lima e Diego Negrete Alves
+ */
+
 package net.codejava.javaee.bookstore;
  
 import java.sql.Connection;
@@ -9,9 +13,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
  
-/**
- *SWII5 - TP03 - Alunos: Grazielle e Josuel - Prof Tuler
- */
 
 public class BookDAO {
     private String jdbcURL;
